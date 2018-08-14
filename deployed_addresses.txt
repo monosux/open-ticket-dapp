@@ -1,0 +1,2 @@
+0xd2d8e369a6f33bbac1754586a931a2c81c73bb4f - OpenEvents, main contract.
+0x3c65fcd5444ef06b47c2a7fc96242ff4e6e217c5 - StableToken, ERC20 token for use with main contract.

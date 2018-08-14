@@ -1,0 +1,8 @@
+#folders
+node_modules
+build
+
+#files
+yarn-error.log
+.yarnrc
+config.json

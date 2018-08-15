@@ -10,7 +10,7 @@ import 'openzeppelin-solidity/contracts/math/SafeMath.sol';
 * @title OpenEvents
 * @dev It is a main contract that provides ability to create events, view information about events and buy tickets.
 */
-contract OpenEvents is OpenTicket, Pausable {
+contract OpenEvents is OpenTicket, Pausable, Destructible {
 	using SafeMath for uint;
 
 	address tokenAddress;

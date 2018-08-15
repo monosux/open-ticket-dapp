@@ -1,6 +1,8 @@
 const path = require('path');
 const fs = require('fs');
 
+const UglifyJsPlugin = require('uglifyjs-webpack-plugin');
+
 process.env.BABEL_ENV = 'production';
 process.env.NODE_ENV = 'production';
 
@@ -18,5 +20,7 @@ settings.resolve.plugins = [new ModuleScopePlugin(resolveApp('src'), [resolveApp
 
 settings.output.path = resolveApp('build/app');
 settings.resolve.modules.push('build');
+
+settings.plugins[3] = new UglifyJsPlugin();
 
 module.exports = settings;

@@ -1,4 +1,4 @@
 {
-	"wallet": "", // Yor wallet seed
-	"infura": "" // Your Infura ID
+	"wallet": "Yor wallet seed",
+	"infura": "Your Infura ID"
 }

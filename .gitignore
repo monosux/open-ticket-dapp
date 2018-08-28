@@ -5,4 +5,3 @@ build
 #files
 yarn-error.log
 .yarnrc
-config.json
